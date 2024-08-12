@@ -1,7 +1,7 @@
 @charset "UTF 8" ;
 
 #corpo{
-    background-image: url(979671-simple-background-black-background-minimalism-theater.jpg);
+    background-image: url(01cinemas-1.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
@@ -14,7 +14,7 @@ header{
     text-align: center;
     padding: 4px 10px 10px 10px;
     margin: -8px -8px 1px -10px;
-    background-image: linear-gradient(to top, #0D0D0D, #400101, #730202  );
+    background-image: linear-gradient(to top, #000000, #400101, #730202  );
     font-size: large;
    
 }
@@ -50,7 +50,6 @@ div#video{
     margin: 6px -9px -4px -7px;
     padding: 155px;
     position: relative;
-    
 }
 
 #acoes{
@@ -67,6 +66,10 @@ footer{
 
 h2{
     text-align: center;
+}
+
+h1{
+    text-shadow: 1px 4px 0px #000000;
 }
 
 a{
