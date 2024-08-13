@@ -1,0 +1,33 @@
+@charset "UTF 8";
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#s2{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#s2 > p{
+    background-color: rgba(128, 128, 128, 0.488);
+    width: 150px;
+    height: 150px;
+}
+
+#s4{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
