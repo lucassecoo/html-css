@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai me dar um beijo amanhã?</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .option {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            border: 2px solid black;
+            cursor: pointer;
+            position: relative;
+        }
+        #nao {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>vai me dar um beijo amanhã?</h1>
+    <p style="color: red;">Atenção: ao selecionar SIM você não poderá voltar atrás e terá que cumprir com sua promessa</p>
+    <div class="option" id="sim" onclick="mostrarMensagem()">Sim</div>
+    <div class="option" id="nao" onmouseover="fugir()">Não</div>
+
+    <div id="mensagem" style="display:none; font-size: 2em; color: black; margin-top: 20px;">Resposta certa, é OBRIGATÓRIO cumprir com sua escolha <br><img src="Captura de tela 2024-08-16 175029.png" alt="" style="padding-top: 30px;"></div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById('mensagem').style.display = 'block';
+        }
+
+        function fugir() {
+            const nao = document.getElementById('nao');
+            const x = Math.random() * (window.innerWidth - nao.offsetWidth);
+            const y = Math.random() * (window.innerHeight - nao.offsetHeight);
+            nao.style.left = x + 'px';
+            nao.style.top = y + 'px';
+        }
+    </script>
+
+</body>
+</html>
