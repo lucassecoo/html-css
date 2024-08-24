@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+         table{
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    th, td{
+        border: 1px solid black;
+        width: 100px;
+        height: 50px;
+    }
+
+    th{
+        text-align: center;
+    }
+
+    caption{
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    col.cnome{
+        background-color: aquamarine;
+    }      
+    
+    tbody > tr:nth-child(2n) {
+        background-color: gray;
+    }
+
+    #container{
+        overflow-x: auto;
+    }
+    </style>
+</head>
+<body>
+    <h1>Teste tabela</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequatur, odio atque rerum totam fuga delectus quisquam, officia consectetur voluptatibus minima perferendis in labore dolore distinctio autem omnis veritatis. Et.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nostrum distinctio unde quasi quis dolorum nisi deserunt quae voluptate! Et cum tempora ut. Ab deleniti sequi provident molestias rerum totam.
+    </p>
+
+    <div id="container">
+        <table>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>m</td>
+            <td>26</td>
+            <td>Programador</td>
+            <td>Claudio</td>
+            <td>m</td>
+            <td>26</td>
+            <td>Programador</td>
+            <td>Claudio</td>
+            <td>m</td>
+            <td>26</td>
+            <td>Programador</td>
+            <td>Claudio</td>
+            <td>m</td>
+            <td>26</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Helio</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Vendedor</td>
+            <td>Helio</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Vendedor</td>
+            <td>Helio</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Vendedor</td>
+            <td>Helio</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Vendedor</td>
+        </tr>
+        </table>
+    </div>
+
+</body>
+</html>
