@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form003</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <fieldset>
+        <legend>Teste</legend>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="imedia">Media: </label>
+                <input type="number" name="media" id="imedia">
+            </p>
+            <p>
+                <label for="iperiodo">Periodo letivo: </label>
+                <input type="month" name="periodo" id="iperiodo">
+            </p>
+            <p>
+                <label for="idata">Dia da prova: </label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <p>
+                <label for="ihorario">Horario da prova: </label>
+                <input type="time" name="horario" id="ihorario">
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset>
+
+</body>
+</html>
